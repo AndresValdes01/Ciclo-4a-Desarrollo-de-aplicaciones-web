@@ -19,3 +19,8 @@ Mi nombre es Juan Chaves, soy tecnólogo en mantenimiento de equipos de cómputo, 
 Vivo en la ciudad de Pasto en Nariño y me gusta mucho la tecnología, la computación y especificamente la programación.
 Me decidí por el Desarrollo de Aplicaciones web porque me llama mucho la atención cómo funciona la web e internet, y porque puedo integrarlo a mi profesión.
 Este ciclo es una oportunidad para crecer y potenciar esas habilidades que hemos desarrollado en el transcurso de toda la MisiónTIC 2022.
+
+Mi nombre es Daniela Quiceno Giraldo, soy de Medellín y soy Ingeniera Industrial. Toda mi experiencia laboral 
+esta enfocada en la logística, pero siempre me ha gustado el tema de los sistemas. Actualmente estoy empezando 
+a tener experiencia en el mundo laboral en ingenieria y ciencia de datos, por lo cual me interesa aprender a programar 
+y luego enfocerme en python y estadística predictiva con modelos de machine learning e IA.
