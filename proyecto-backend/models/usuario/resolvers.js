@@ -20,6 +20,7 @@ const resolversUsuario = {
                 identificacion: args.identificacion,
                 correo: args.correo,
                 rol: args.rol,
+                password: args.password
             });
 
             if (Object.keys(args).includes('estado')) {
