@@ -48,9 +48,10 @@ const ResponsiveSidebar = () => {
 
 const SidebarLinks = () => {
     return (
-        <ul>
-            <SidebarRoute to='' title='Inicio' icon='fas fa-home' />
-        </ul>
+      <ul className='mt-12'>
+        <SidebarRoute to='' title='Inicio' icon='fas fa-home' />
+        <SidebarRoute to='/usuarios' title='Usuarios' icon='fas fa-user' />
+      </ul>
     )
 }
 
