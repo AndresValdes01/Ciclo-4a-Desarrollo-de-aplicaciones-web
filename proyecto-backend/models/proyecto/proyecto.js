@@ -1,19 +1,10 @@
 import mongoose from 'mongoose';
-// import { Enum_EstadoProyecto, Enum_FaseProyecto, Enum_TipoObjetivo } from '../enums/enums.js';
+
 import { ObjectiveModel } from '../objective.js';
 import { UserModel } from '../usuario/usuario.js';
 const { Schema, model } = mongoose;
 
-// interface Proyecto {
-//   nombre: string;
-//   presupuesto: number;
-//   fechaInicio: Date;
-//   fechaFin: Date;
-//   estado: Enum_EstadoProyecto;
-//   fase: Enum_FaseProyecto;
-//   lider: Schema.Types.ObjectId;
-//   objetivos: [{ descripcion: String; tipo: Enum_TipoObjetivo }];
-// }
+
 
 const projectSchema = new Schema(
   {
@@ -63,8 +54,8 @@ const projectSchema = new Schema(
     ],
   },
   {
-    toJSON: { virtuals: true }, // So `res.json()` and other `JSON.stringify()` functions include virtuals
-    toObject: { virtuals: true }, // So `console.log()` and other functions that use `toObject()` include virtuals
+    toJSON: { virtuals: true }, 
+    toObject: { virtuals: true }, 
   }
 );
 

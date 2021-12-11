@@ -11,11 +11,11 @@ const tiposGlobales = gql`
 `;
 
 export const tipos = [
-    tiposGlobales,
-    tiposEnums,
-    tiposUsuario,
-    tiposProyecto,
-    tiposAvance,
-    tiposInscripcion,
-    tiposAutenticacion,
-];
+  tiposGlobales,
+  tiposEnums,
+  tiposUsuario,
+  tiposProyecto,
+  tiposAvance,
+  tiposInscripcion,
+  tiposAutenticacion,
+]

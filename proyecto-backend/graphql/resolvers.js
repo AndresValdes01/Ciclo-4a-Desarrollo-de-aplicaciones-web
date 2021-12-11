@@ -5,9 +5,9 @@ import { resolverInscripciones } from '../models/inscripcion/resolvers.js';
 import { resolversAutenticacion } from './auth/resolvers.js';
 
 export const resolvers = [
-    resolversUsuario,
-    resolversProyecto,
-    resolversAvance,
-    resolverInscripciones,
-    resolversAutenticacion,
+  resolversUsuario,
+  resolversProyecto,
+  resolversAvance,
+  resolverInscripciones,
+  resolversAutenticacion,
 ];
