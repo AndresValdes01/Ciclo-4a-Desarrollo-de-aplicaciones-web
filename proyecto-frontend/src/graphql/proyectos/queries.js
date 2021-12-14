@@ -12,7 +12,7 @@ const PROYECTOS = gql`
       }
       lider {
         _id
-        correo
+        nombre
       }
       inscripciones {
         estado
