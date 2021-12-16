@@ -29,7 +29,7 @@ const NuevoProyecto = () => {
     if (data) {
       const lu = {};
       data.Usuarios.forEach((elemento) => {
-        lu[elemento._id] = elemento.correo;
+        lu[elemento._id] = elemento.nombre;
       });
 
       setListaUsuarios(lu);
