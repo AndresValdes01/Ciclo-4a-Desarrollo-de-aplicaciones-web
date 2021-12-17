@@ -21,7 +21,7 @@ const IndexInscripciones = () => {
   return (
     <PrivateRoute roleList={['ADMINISTRADOR', 'LIDER']}>
       <div className='p-10'>
-        <div>Pagina de inscripciones</div>
+        <div className='text-3xl text-center font-family: ui-serif font-bold '> Pagina de inscripciones</div>
         <div className='my-4'>
           <AccordionInscripcion
             titulo='Inscripciones aprobadas'

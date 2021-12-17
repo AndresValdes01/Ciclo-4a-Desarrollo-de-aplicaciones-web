@@ -12,7 +12,7 @@ const SidebarLinks = () => {
       </PrivateComponent>
       <SidebarRoute to='/proyectos' title='Proyectos' icon='fab fa-readme' />
       <PrivateComponent roleList={['ADMINISTRADOR', 'LIDER']}>
-        <SidebarRoute to='/inscripciones' title='Aprobacion Inscripciones' icon='fas fa-clipboard-check' />
+        <SidebarRoute to='/inscripciones' title='Aprobar Inscripciones' icon='fas fa-clipboard-check' />
       </PrivateComponent>
       <Logout />
     </ul>
@@ -91,8 +91,8 @@ const SidebarRoute = ({ to, title, icon }) => {
         to={to}
         className={({ isActive }) =>
           isActive
-            ? 'sidebar-route text-white bg-indigo-700'
-            : 'sidebar-route text-gray-900 hover:text-white hover:bg-indigo-400'
+            ? 'sidebar-route text-white bg-blue-700'
+            : 'sidebar-route text-gray-900 hover:text-white hover:bg-blue-400'
         }
       >
         <div className='flex items-center'>
